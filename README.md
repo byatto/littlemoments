@@ -1,6 +1,6 @@
 # littlemoments
 
-A fast, minimal web app for capturing moments of Malcolm's life as they happen. Built for parents who want to remember the funny quotes, the firsts, and the everyday magic — without the overhead of a full journaling app.
+A fast, minimal web app for capturing moments of a child's life as they happen. Built for parents who want to remember the funny quotes, the firsts, and the everyday magic — without the overhead of a full journaling app.
 
 ## Philosophy
 
@@ -62,7 +62,7 @@ All data is stored in `localStorage` under the key `littlemoments_data`. The dat
   "items": [
     {
       "id": "unique-id",
-      "text": "Malcolm said 'daddy, the moon is following us'",
+      "text": "John said 'daddy, the moon is following us'",
       "category": "quote",
       "tags": ["bedtime", "3yo"],
       "createdAt": "2026-02-13T20:30:00.000Z",
@@ -78,7 +78,7 @@ All data is stored in `localStorage` under the key `littlemoments_data`. The dat
 
 | Category | Use for |
 |----------|---------|
-| **Quote** | Things Malcolm said |
+| **Quote** | Things the kid said |
 | **First** | Milestones and first-time events |
 | **Funny** | Hilarious moments |
 | **Note** | General observations, daily snapshots |
@@ -96,7 +96,7 @@ See [Issues](../../issues) for planned features. Key ideas for future versions:
 
 - [ ] "On This Day" — resurface moments from the same date in previous years
 - [ ] Photo attachments (v2)
-- [ ] Age calculator — auto-tag Malcolm's age at time of capture
+- [ ] Age calculator — auto-tag child's age at time of capture
 - [ ] Monthly digest — email summary of the month's moments
 - [ ] PWA support for home screen install
 - [ ] Multiple children support
